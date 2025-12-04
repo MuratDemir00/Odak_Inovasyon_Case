@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "orderId": 20241,
+    "urunNo": 110062537,
+    "sira": 1,
+    "urunAdi": "BOYALI ALÜMİNYUM PROFİL",
+    "profil": 9033,
+    "yuzey": "MAT",
+    "renk": "RAL 9003",
+    "adet": 32,
+    "miktar": 0.0142,
+    "foto": "/photos/110062537.jpg"
+  },
+  {
+    "id": 2,
+    "orderId": 20241,
+    "urunNo": 110062538,
+    "sira": 2,
+    "urunAdi": "ELOKSAL ALÜMİNYUM PROFİL",
+    "profil": 1028,
+    "yuzey": "PARLAK",
+    "renk": "BRONZ",
+    "adet": 12,
+    "miktar": 0.0187,
+    "foto": "/photos/110062538.jpg"
+  }
+]

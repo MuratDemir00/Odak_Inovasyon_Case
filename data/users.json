@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "fullName": "Turan Atik",
+    "kullaniciAdi": "ADMIN",
+    "grupTanimi": "MUHASEBE ELEMANI",
+    "departman": "Satın Alma",
+    "admin": true,
+    "temsilci": true
+  },
+  {
+    "id": 5000001,
+    "fullName": "Gökcu Alkan",
+    "kullaniciAdi": "deneme99",
+    "grupTanimi": "GENEL MÜDÜR",
+    "departman": "Üretim",
+    "admin": true,
+    "temsilci": true
+  },
+  {
+    "id": 8000001,
+    "fullName": "Abdulkadir Özgür",
+    "kullaniciAdi": "kadircosgy",
+    "grupTanimi": "GENEL MÜDÜR",
+    "departman": "Yönetim",
+    "admin": true,
+    "temsilci": true
+  },
+  {
+    "id": 8000002,
+    "fullName": "Mervan Erdem",
+    "kullaniciAdi": "mervan",
+    "grupTanimi": "GENEL MÜDÜR",
+    "departman": "Yönetim",
+    "admin": true,
+    "temsilci": true
+  },
+  {
+    "id": 8000003,
+    "fullName": "Taha Şekerci",
+    "kullaniciAdi": "taha",
+    "grupTanimi": "GENEL MÜDÜR",
+    "departman": "Yönetim",
+    "admin": true,
+    "temsilci": true
+  },
+  {
+    "id": 8000004,
+    "fullName": "Furkan Atik",
+    "kullaniciAdi": "furkan",
+    "grupTanimi": "GENEL MÜDÜR",
+    "departman": "Yönetim",
+    "admin": true,
+    "temsilci": true
+  },
+  {
+    "id": 8000005,
+    "fullName": "Murat Demir",
+    "kullaniciAdi": "muratbabba",
+    "grupTanimi": "YÖNETİM",
+    "departman": "Satın Alma",
+    "admin": true,
+    "temsilci": false,
+    "sifre": "123123",
+    "tumSubeleriGorebilir": true,
+    "stokMaliyetleriniGorur": true,
+    "satisTemsilcisi": true,
+    "kisitliFinansKullanıcı": true,
+    "sistemYetkilisi": true,
+    "email": "asdads"
+  },
+  {
+    "id": 8000006,
+    "fullName": "Mert Korkmaz",
+    "kullaniciAdi": "mert",
+    "grupTanimi": "MUHASEBE",
+    "departman": "Muhasebe",
+    "admin": false,
+    "temsilci": true,
+    "sifre": "test",
+    "satisTemsilcisi": true,
+    "tumSubeleriGorebilir": true
+  }
+]

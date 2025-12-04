@@ -1,0 +1,26 @@
+[
+  {
+    "id": 20241,
+    "sube": "Merkez",
+    "seri": "A",
+    "siparisNo": 12,
+    "siparisTarihi": "2024-10-15",
+    "firmaAdi": "ODAK İNOVASYON",
+    "firmaNo": 210027881,
+    "teslimSekli": "Depo Teslim",
+    "odemeSekli": "Açık Hesap",
+    "temsilciId": 8000005
+  },
+  {
+    "id": 20242,
+    "sube": "Merkez",
+    "seri": "A",
+    "siparisNo": 11,
+    "siparisTarihi": "2024-10-15",
+    "firmaAdi": "ALUCOBEX",
+    "firmaNo": 210027886,
+    "teslimSekli": "Depo Teslim",
+    "odemeSekli": "Açık Hesap",
+    "temsilciId": 8000001
+  }
+]
