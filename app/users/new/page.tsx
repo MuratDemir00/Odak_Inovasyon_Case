@@ -12,6 +12,8 @@ import { lookups } from "@/data/lookups";
 interface UserModel {
     fullName: string;
     kullaniciAdi: string;
+    sifre: string;
+    email?: string;
     grupTanimi: string;
     departman: string;
     admin: boolean;
@@ -24,6 +26,8 @@ export default function NewUserPage() {
     const [model, setModel] = useState<UserModel>({
         fullName: "",
         kullaniciAdi: "",
+        sifre: "",
+        email: "",
         grupTanimi: "",
         departman: "",
         admin: false,
@@ -33,6 +37,7 @@ export default function NewUserPage() {
     const handleSave = async () => {
         await fetch("/api/users", {
             method: "POST",
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify(model)
         });
 
@@ -57,6 +62,28 @@ export default function NewUserPage() {
                 <SimpleItem dataField="kullaniciAdi" label={{ text: "Kullanıcı Adı" }}>
                     <RequiredRule message="Kullanıcı adı gerekli" />
                 </SimpleItem>
+
+                <SimpleItem
+                    dataField="sifre"
+                    label={{ text: "Şifre" }}
+                    editorType="dxTextBox"
+                    editorOptions={{
+                        mode: "password",
+                        showClearButton: true
+                    }}
+                >
+                    <RequiredRule message="Şifre gerekli" />
+                </SimpleItem>
+
+                <SimpleItem
+                    dataField="email"
+                    label={{ text: "E-Mail (Opsiyonel)" }}
+                    editorType="dxTextBox"
+                    editorOptions={{
+                        mode: "email",
+                        showClearButton: true
+                    }}
+                />
 
                 <SimpleItem
                     dataField="grupTanimi"
